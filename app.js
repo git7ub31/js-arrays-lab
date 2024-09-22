@@ -244,11 +244,12 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 
 Complete Exercise 15 in the space below:
 */
-let total
+let total =0
 for(let i=0; i<numArrays.length; i++){
-     sum = sum+ numArrays[i]; //or u can write sum+= numArrays[i]
+    //  sum = sum+ numArrays[i]; //or u can write sum+= numArrays[i]
+    for (let j= 0; j<numArrays.length; j++) {
+        const total = total+ numArrays[j];
+        
+    }
 }
-
-numArrays.forEach(numArray) => {}
-
 console.log('Exercise 15 result:\n', total);
